@@ -12,7 +12,7 @@ html, body {
   p {
     font-family: 'Alegreya Sans', sans-serif;
     letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 36px;
     color: #333333;
   }
   
@@ -37,7 +37,7 @@ html, body {
   }
   
   .inner-header {
-    height: 50vh;
+    height: 65vh;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -146,6 +146,9 @@ html, body {
   /*Shrinking for mobile*/
   
   @media (max-width: 768px) {
+    .inner-header {
+      height: 50vh;
+    }
     .waves {
       height: 40px;
       min-height: 40px;
@@ -157,6 +160,6 @@ html, body {
       font-size: 48px;
     }
     p {
-      font-size: 20px;
+      font-size: 36px;
     }
   }
