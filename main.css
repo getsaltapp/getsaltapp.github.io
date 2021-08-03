@@ -4,15 +4,15 @@ html, body {
   
   h1 {
     font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     letter-spacing: 2px;
-    font-size: 72px;
+    font-size: 96px;
   }
   
   p {
     font-family: 'Alegreya Sans', sans-serif;
-    letter-spacing: 1px;
-    font-size: 36px;
+    font-weight: 200;
+    font-size: 32px;
     color: #333333;
   }
   
@@ -20,9 +20,8 @@ html, body {
     position: relative;
     text-align: center;
     color: white;
-    background: linear-gradient(131deg, #0600aa, #cb0000, #ffc900);
+    background: linear-gradient(131deg, #ffbf18, #ffea7b, #d31922);
     background-size: 300% 300%;
-  
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
@@ -157,7 +156,7 @@ html, body {
       height: 30vh;
     }
     h1 {
-      font-size: 48px;
+      font-size: 56px;
     }
     p {
       font-size: 24px;
