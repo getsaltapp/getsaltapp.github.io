@@ -11,7 +11,7 @@ html, body {
   
   p {
     font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 32px;
     color: #333333;
   }
@@ -20,7 +20,7 @@ html, body {
     position: relative;
     text-align: center;
     color: white;
-    background: linear-gradient(131deg, #ffbf18, #ffea7b, #d31922);
+    background: linear-gradient(131deg, #ffea7b, #ffbf18, #d31922, #d31922);
     background-size: 300% 300%;
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
