@@ -3,17 +3,17 @@ html, body {
   }
   
   h1 {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
     font-size: 96px;
   }
   
   p {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 32px;
-    color: #333333;
+    color: #fff;
   }
   
   .header {
@@ -47,6 +47,7 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
   }
   
   .waves {
