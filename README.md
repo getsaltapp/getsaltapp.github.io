@@ -1,9 +1,8 @@
-# The marketing website for Salt
+# The marketing website for Tripp
 
 Should work at:
 ```
-getsalt.app
-www.getsalt.app
-getsaltapp.com
-www.getsaltapp.com
+www.trippfin.com
+www.heytripp.com
+www.heyytripp.com
 ```
