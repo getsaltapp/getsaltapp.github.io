@@ -8,7 +8,7 @@ html, body {
     letter-spacing: 2px;
     font-size: 96px;
   }
-  
+
   p {
     font-family: 'Consolas', monospace;
     font-weight: 300;
@@ -17,18 +17,20 @@ html, body {
   }
 
   .highlight_header {
-    font-family: 'Consolas', monospace;
     font-weight: bold;
     font-size: 96px;
     color: #368CF9;
   }
 
   .highlight {
-    font-family: 'Consolas', monospace;
     font-weight: bold;
     font-style: italic;
-    font-size: 32px;
     color: #ADBAC7;
+  }
+
+  .highlight_prompt {
+    font-weight: bold;
+    color: #26A148;
   }
 
   .body {
@@ -49,11 +51,11 @@ html, body {
   }
 
   @keyframes blinkingText{
-    0%{     color: #368CF9;    }
-    49%{    color: #368CF9; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #368CF9;    }
+    0% {   color: #368CF9; }
+    49% {  color: #368CF9; }
+    60% {  color: transparent; }
+    99% {  color: transparent; }
+    100% { color: #368CF9; }
   }
 
   /* unvisited link */
@@ -80,8 +82,7 @@ html, body {
     text-decoration: none;
   }
   
-  /*Shrinking for mobile*/
-  
+  /* shrinking for mobile */
   @media (max-width: 768px) {
     h1 {
       font-size: 56px;
