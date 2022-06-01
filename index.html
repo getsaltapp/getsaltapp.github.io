@@ -1,24 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tripp</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tripp, smart money management for everyone.">
+<title>Tripp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bulma.min.css">
+<link rel="stylesheet" href="css/fa.min.css">
+<link rel="stylesheet" href="css/master.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GETZHM095W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GETZHM095W');
+</script>
 </head>
 
-
-<div class="body">
-  <h1>tripp<span class="blinking">_</span></h1>
-  <p><span class="highlight_prompt">&#62;</span> smart money management for <span class="highlight">everyone</span></p>
-  <br></br>
-  <p><a href="mailto:contact@trippfin.com">contact@trippfin.com</a></p>
-</div>
+<body id="tripp" class="index has-navbar-fixed-top">
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand"> <a class="navbar-item" href="https://trippfin.com"> <img src="img/tripp-logo.svg" alt="Tripp" width="60"> </a> <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="trippNavbar"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div>
+  <div id="trippNavbar" class="navbar-menu">
+    <div class="navbar-end"> <a href="index.html" class="navbar-item"> Home </a> <a href="careers.html" class="navbar-item"> Careers </a>
+      <div class="navbar-item">
+        <div class="buttons"> <a href="#join-tripp" class="button is-primary smooth-scroll"> Join the Waitlist </a> </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero-main hero is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-three-fifths">
+          <div class="hero-content is-flex is-flex-direction-column is-justify-content-center">
+            <h1 class="title is-1 is-spaced">You have to spend money to make money</h1>
+            <p class="subtitle is-4">Tripp invests the dollars you spend and sells when your bill is due</p>
+            <div class="field has-addons">
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-medium" type="email" placeholder="Your email">
+                <span class="icon is-small is-left"> <i class="fas fa-envelope fa-xs"></i> </span> </div>
+              <div class="control"> <a class="button is-medium is-primary"> Join the Waitlist </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="column mobile-screenshots"> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="steps step-a section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-three-fifths">
+        <div class="step-content is-flex is-flex-direction-column is-justify-content-center">
+          <h2 class="title is-2 is-spaced">You're in control</h2>
+          <p class="subtitle is-4">Bring your favorite credit card, choose how you invest, and reap the rewards for yourself.</p>
+        </div>
+      </div>
+      <div class="column is-offset-1"> <img src="img/lp-imp-control.svg" alt="Be in control"/></div>
+    </div>
+  </div>
+</section>
+<section class="steps step-b section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-three-fifths">
+        <div class="step-content is-flex is-flex-direction-column is-justify-content-center">
+          <h2 class="title is-2 is-spaced">You do the easy part</h2>
+          <p class="subtitle is-4">Spend like normal and watch the amount you choose automatically invest and sell before your card is due.</p>
+        </div>
+      </div>
+      <div class="column is-offset-1"> <img src="img/lp-imp-easy-part.svg" alt="Do the easy part"/></div>
+    </div>
+  </div>
+</section>
+<section class="steps step-a section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-three-fifths">
+        <div class="step-content is-flex is-flex-direction-column is-justify-content-center">
+          <h2 class="title is-2 is-spaced">Time to upgrade</h2>
+          <p class="subtitle is-4">You already earn points, cash back, and airline miles on your credit card. Time to earn shares on top of that too.</p>
+        </div>
+      </div>
+      <div class="column is-offset-1"> <img src="img/lp-imp-upgrade.svg" alt="Time to upgrade"/></div>
+    </div>
+  </div>
+</section>
+<section class="steps step-b section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-three-fifths">
+        <div class="step-content is-flex is-flex-direction-column is-justify-content-center">
+          <h2 class="title is-2 is-spaced">The other guy</h2>
+          <p class="subtitle is-4">Banks are making upwards of 10% profit per year on your money while you only get 0.03%.</p>
+        </div>
+      </div>
+      <div class="column is-offset-1"> <img src="img/lp-imp-other-guy.svg" alt="The other guy"/></div>
+    </div>
+  </div>
+</section>
+<section id="join-tripp" class="steps step-a section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-three-fifths">
+        <div class="step-content is-flex is-flex-direction-column is-justify-content-center">
+          <h2 class="title is-2 is-spaced">You</h2>
+          <p class="subtitle is-4">Download Tripp, link your credit card, choose how to invest, watch your money work for you.</p>
+        </div>
+      </div>
+      <div class="column is-offset-1">
+        <div class="step-content is-flex is-flex-direction-column is-justify-content-center has-text-centered">
+          <h3 class="title is-4 is-spaced has-text-weight-light">Join the waitlist</h3>
+          <div class="field">
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="email" placeholder="Your email">
+              <span class="icon is-small is-left"> <i class="fas fa-envelope fa-xs"></i> </span> </div>
+          </div>
+          <div class="field has-text-centered">
+            <p class="control">
+              <button class="button is-fullwidth is-primary"> Join Now </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="calculator section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter has-text-centered">
+        <h2 class="title is-2 is-spaced">How much could you be saving with Tripp?</h2>
+        <p class="subtitle is-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel placerat ex.</p>
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <div class="select is-fullwidth">
+              <select name="spending">
+                <option value="1">$0-$500</option>
+                <option value="2">$500-$1000</option>
+                <option value="3">$1000-$1500</option>
+                <option value="4">$1500-$2000</option>
+                <option value="5">$2000-$2500</option>
+                <option value="6">$2500-$3000</option>
+                <option value="7">$3000-$3500</option>
+                <option value="8">$3500-$4000</option>
+                <option value="9">$4000-$4500</option>
+                <option value="10">$4500-$5000</option>
+                <option value="11">$5000-$5500</option>
+                <option value="12">$5500-$6000</option>
+              </select>
+            </div>
+          </div>
+          <div class="control">
+            <button type="submit" class="button is-primary">Choose</button>
+          </div>
+        </div>
+        <br>
+        <p class="title is-1 is-spotlight">$23,471.67</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p> © 2022 Tripp. Tripp is a registered trademark of Tripp Finance Inc. All rights reserved. </p>
+  </div>
+</footer>
+<script src="js/jquery.min.js"></script> 
+<script src="js/calculator.js"></script>
+<script  src="js/master.js"></script>
+</body>
+</html>
