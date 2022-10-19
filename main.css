@@ -3,17 +3,17 @@ html, body {
   }
   
   h1 {
-    font-family: 'Consolas', monospace;
-    font-weight: 100;
-    letter-spacing: 2px;
+    font-family: 'Catamaran', monospace;
+    font-weight: 900;
+    /* letter-spacing: 6px; */
     font-size: 96px;
   }
 
   p {
-    font-family: 'Consolas', monospace;
+    font-family: 'Catamaran', monospace;
     font-weight: 300;
     font-size: 32px;
-    color: #838C96;
+    color: #595959;
   }
 
   .highlight_header {
@@ -24,21 +24,27 @@ html, body {
 
   .highlight {
     font-weight: bold;
-    font-style: italic;
-    color: #ADBAC7;
+    color: #595959;
   }
 
   .highlight_prompt {
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 36px;
     color: #26A148;
+  }
+
+  .highlight_cursor {
+    font-weight: 900;
+    font-size: 96px;
+    color: #0074f9;
   }
 
   .body {
     position: relative;
     text-align: center;
     height: 100vh;
-    color: #ADBAC7;
-    background: #22272E;
+    color: #0074f9;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +66,7 @@ html, body {
 
   /* unvisited link */
   a:link {
-    color: #368CF9;
+    color: #0074f9;
     text-decoration: none;
   }
   
@@ -78,7 +84,7 @@ html, body {
   
   /* selected link */
   a:active {
-    color: #368CF9;
+    color: #0074f9;
     text-decoration: none;
   }
   
