@@ -1,99 +1,110 @@
-html, body {
-    margin: 0;
-  }
-  
-  h1 {
-    font-family: 'Catamaran', monospace;
-    font-weight: 900;
-    /* letter-spacing: 6px; */
-    font-size: 96px;
-  }
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(135deg, #111, #2d2d2d);
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 
-  p {
-    font-family: 'Catamaran', monospace;
-    font-weight: 300;
-    font-size: 32px;
-    color: #595959;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-  .highlight_header {
-    font-weight: bold;
-    font-size: 96px;
-    color: #368CF9;
-  }
+.logo {
+  color: #268cff;
+  font-size: 72px;
+}
 
-  .highlight {
-    font-weight: bold;
-    color: #595959;
-  }
+.logo span {
+  color: white;
+}
 
-  .highlight_prompt {
-    font-weight: 900;
-    font-size: 36px;
-    color: #26A148;
-  }
+.slogan {
+  color: white;
+  font-size: 24px;
+  margin-top: -20px;
+}
 
-  .highlight_cursor {
-    font-weight: 900;
-    font-size: 96px;
-    color: #0074f9;
-  }
+#emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
 
-  .body {
-    position: relative;
-    text-align: center;
-    height: 100vh;
-    color: #0074f9;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-  }
 
-  .blinking{
-    animation:blinkingText 1.2s infinite;
-  }
+#emailInput {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 250px;
+  border-radius: 5px;
+}
 
-  @keyframes blinkingText{
-    0% {   color: #368CF9; }
-    49% {  color: #368CF9; }
-    60% {  color: transparent; }
-    99% {  color: transparent; }
-    100% { color: #368CF9; }
-  }
+button {
+  background-color: #268cff;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
-  /* unvisited link */
-  a:link {
-    color: #0074f9;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #0349B4;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #0349B4;
-    text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #0074f9;
-    text-decoration: none;
-  }
-  
-  /* shrinking for mobile */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 56px;
-    }
-    p {
-      font-size: 24px;
-    }
-  }
+button:hover {
+  background-color: #1a6fdb;
+}
+
+button:active {
+  background-color: #0f5ac8;
+}
+
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#checkmark {
+  color: green;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-69%);
+  font-size: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  color: #28a745;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#errorMessage {
+  color: #dc3545;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}

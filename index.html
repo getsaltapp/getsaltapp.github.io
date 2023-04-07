@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tripp</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Catamaran" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-</head>
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripplabs</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+  </head>
 
-<div class="body">
-  <h1>tripp</h1>
-  <p><span class="highlight_prompt">&#62;</span> smart investing for <span class="highlight">credit card optimizers</span><span class="highlight_prompt"><span class="blinking">|</span></span></p>
-  <br></br>
-  <p><a href="mailto:contact@trippfin.com">contact@trippfin.com</a></p>
-</div>
+  <body>
+    <div class="container">
+      <h1 class="logo">tripp<span>labs</span></h1>
+      <h2 class="slogan">Real Business Intelligence</h2>
+      <form id="emailForm">
+        <div class="input-wrapper">
+          <input type="email" id="emailInput" class="ubuntu" placeholder="Enter your email" required>
+          <span id="checkmark" class="hidden">&#10004;</span>
+        </div>
+        <button type="submit" class="ubuntu">Join the waitlist</button>
+      </form>
+      <div id="successMessage" class="hidden">Email successfully submitted!</div>
+      <div id="errorMessage" class="hidden">An error occurred. Please try again later.</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+
+</html>
